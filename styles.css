@@ -294,12 +294,15 @@ a {
   #header {
     height: calc(100vh + 57px);
     position: relative;
+    display: flex;
   }
 
   .heading {
     Font-size: 4vw;
     position: relative;
-    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
     margin-bottom: auto;
   }
 
