@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mason's Site</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/2561a817f5.js"></script>
+</head>
+
+<body>
+  <!-- Header -------------------------------------------------------------->
+  <section id="header">
+    <div class="heading">
+      <div class="headBody">
+        Hello, my name is <span class="name">Mason Pool</span>.
+        <br>
+        I'm a Full Stack web developer.
+        <div><a href="#about" class="header-btn">This is me <i class=" icon fa fa-arrow-right" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+  </section>
+  <!-- Navigation ------------------------------------------------------>
+  <div id="navBar">
+    <div id="nav-bg">
+      <div class="navContent">
+        <a href="#about">About</a>
+        <a href="#ability">Abilities</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="navBtn">
+      <a class="nav-btn" href="javascript:void(0)" onclick="navFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <!-- About ------------------------------------------------------->
+  <section id="about" class="light-bg">
+    <h3>About Me</h3>
+    <div> <img class="ProfileImg" src="images/Profilepic.png" alt="My-profile-pic"> </div>
+    <div class="content">
+      <div class="light-bg about-1">I am a 21 year old web developer from Indiana. I started learning to program web applications because I saw the market for this line of work. Seeing the amazing websites that other programmers have created, I was
+        excited to start learning.</div>
+      <div class="light-bg about-2">Growing up, I spent a lot of time playing video games. I have always loved a good story in a video game. I would like to start programming my own games eventually.</div>
+      <div class="light-bg about-3">I only began learning to program recently, but in that time, I have learned languages such as HTML, CSS, JS, as well as Node.js, Express.js and PHP. I am still learning more as I go.</div>
+    </div>
+  </section>
+  <!-- Ability ------------------------------------------------->
+  <section id="ability">
+    <h3>Abilities</h3>
+    <div class="ability">
+      <div class="accolades">
+      <div class="accoladesBody">
+        <div class="clock">
+          <h4>Fast</h4>
+          <img class="ability-img" src="images/clock.png" alt="clock-img">
+          <p>My websites are fast and efficient.</p>
+        </div>
+        <div class="phone">
+          <h4>Responsive Design</h4>
+          <img class="ability-img" src="images/smartphone.png" alt="phone-img">
+          <p>My websites will work on any device.</p>
+        </div>
+      </div>
+      </div>
+      <div class="ratings">
+        <div class="card">
+          <ul>
+            <li><span class="head">HTML5</span><span class="score">⭐⭐⭐⭐⭐</span></li>
+            <li><span class="head">CSS3</span><span class="score">⭐⭐⭐⭐<span class="light">⭐</span></span></li>
+            <li><span class="head">JavaScript</span><span class="score">⭐⭐⭐<span class="light">⭐⭐</span></span></li>
+            <li><span class="head">Bootstrap</span><span class="score">⭐⭐⭐⭐<span class="light">⭐</span></span></li>
+            <li><span class="head">Jquery</span><span class="score">⭐⭐⭐⭐⭐</span></li>
+            <li><span class="head">Node.js</span><span class="score">⭐⭐⭐<span class="light">⭐⭐</span></span></li>
+            <li><span class="head">SQL</span><span class="score">⭐⭐⭐<span class="light">⭐⭐</span></span></li>
+            <li><span class="head">Command Line</span><span class="score">⭐⭐⭐⭐<span class="light">⭐</span></span></li>
+            <li><span class="head">PHP</span><span class="score">⭐⭐⭐<span class="light">⭐⭐</span></span></li>
+            <li><span class="head">Reactjs</span><span class="score">⭐⭐⭐<span class="light">⭐⭐</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects ------------------------------------------------>
+  <section id="projects" class="light-bg">
+    <h3>Projects</h3>
+    <div class="projectBody">
+      Coming soon...
+    </div>
+  </section>
+  <!-- Contact -------------------------------------------------------------------------------------------->
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <div class="contact">Have Questions?</div>
+    <div class="form">
+      <form class="input" action="index.html" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" rows="8" cols="80" placeholder="Your Message"></textarea>
+        <br>
+        <button class="email-btn" type="submit" name="submit">Submit <i class="fa fa-envelope"></i></button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -------------------------------------------------------------------------------------------->
+  <section id="footer" class="light-bg">
+    <div class="social">
+      <a href="https://www.instagram.com/mjpool99/"><i class="social fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/mason.pool.58"><i class="social fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/mason-pool-3612a3187/"><i class="social fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+    <p> <em>©️ 2021 Mason Pool</em> </p>
+    </div>
+  </section>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
