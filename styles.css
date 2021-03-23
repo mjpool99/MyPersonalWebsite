@@ -497,7 +497,7 @@ a {
   /* Contact Me */
   #contact {
     padding-top: 30px;
-    height: 75vh;
+    height: 100%;
   }
 
   #contact h3 {
